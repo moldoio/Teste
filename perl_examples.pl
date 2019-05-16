@@ -3,6 +3,8 @@ use strict;
 use warnings;
 use diagnostics;
 
+# simplify the formula: ( A || B ) && ( A || C )
+
 use Data::Dumper;
 {
   my %words = (
